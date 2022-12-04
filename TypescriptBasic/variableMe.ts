@@ -1,9 +1,22 @@
-let greetings: string = "Hello Bobby";
+let greetings: string = "Hello Bobby"
 
-let mynum = 6;
-mynum.toLowercase();
+greetings.toLowerCase()
+console.log(greetings)
 
-let userId = 23423423.23423;
+// number
+// let userId: number = 334455.5
+let userId = 334455.5
 
-console.log(greetings);
-export {};
+userId.toFixed()
+// userId = "rahman"
+// boolean
+let isLoggedIn: boolean = false
+
+// any
+let hero
+function getHero() {
+  return "thor"
+}
+hero = getHero()
+
+export {}
