@@ -1,16 +1,20 @@
 function addTwo(num: number) {
   // num.toUpperCase() -- error
-  return num + 2
+  // return num + 2
+  return "hello"
 }
 
 function getUpper(val: string) {
   return val.toUpperCase()
 }
 
-function signUser(name, email, password) {}
+function signUser(name: string, email: string, isPaid: boolean) {}
 
-addTwo(5)
+const loginUser = (name: string, email: string, isPaid: boolean = false) => {}
+
+let myValue = addTwo(5)
 getUpper("rahman")
-signUser(1, 2, 3)
+signUser("rahman", "rahman@gmail.com", false)
+loginUser("r", "r@r.com")
 
 export {}
