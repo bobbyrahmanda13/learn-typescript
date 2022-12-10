@@ -24,34 +24,34 @@
 // }
 // createUser({ name: "", email: "", isActive: true })
 
-type User = {
-  readonly _id: string // tidak bisa di edit karena readonly
-  name: string
-  email: string
-  isActive: boolean
-  credcardDetails?: number // optional
-}
-
-let myUser: User = {
-  _id: "1234",
-  name: "r",
-  email: "rahman@mail.com",
-  isActive: false,
-}
-
-type cardNumber = {
-  cardnumber: string
-}
-
-type cardDate = {
-  cardDate: string
-}
-type cardDetails = cardNumber &
-  cardDate & {
-    cvv: number
-  }
-
-myUser.email = "lalok@gmail.com"
+// type User = {
+//   readonly _id: string // tidak bisa di edit karena readonly
+//   name: string
+//   email: string
+//   isActive: boolean
+//   credcardDetails?: number // optional
+// }
+//
+// let myUser: User = {
+//   _id: "1234",
+//   name: "r",
+//   email: "rahman@mail.com",
+//   isActive: false,
+// }
+//
+// type cardNumber = {
+//   cardnumber: string
+// }
+//
+// type cardDate = {
+//   cardDate: string
+// }
+// type cardDetails = cardNumber &
+//   cardDate & {
+//     cvv: number
+//   }
+//
+// myUser.email = "lalok@gmail.com"
 // myUser._id = "asa"
 
 export {}
