@@ -52,3 +52,4 @@ seatAllotment = "aisle"
 // seatAllotment = "crew" // error
 
 // end
+export {}
