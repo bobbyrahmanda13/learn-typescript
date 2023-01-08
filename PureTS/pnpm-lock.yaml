@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   typescript: ^4.9.3
-  vite: ^4.0.3
+  vite: ^4.0.4
 
 devDependencies:
   typescript: 4.9.4
-  vite: 4.0.3
+  vite: 4.0.4
 
 packages:
 
@@ -319,8 +319,8 @@ packages:
     hasBin: true
     dev: true
 
-  /vite/4.0.3:
-    resolution: {integrity: sha512-HvuNv1RdE7deIfQb8mPk51UKjqptO/4RXZ5yXSAvurd5xOckwS/gg8h9Tky3uSbnjYTgUm0hVCet1cyhKd73ZA==}
+  /vite/4.0.4:
+    resolution: {integrity: sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
